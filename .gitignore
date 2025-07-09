@@ -1,0 +1,22 @@
+# Entorno virtual
+.venv/
+
+# Cachés de Python
+__pycache__/
+*.py[cod]
+
+# Dependencias instaladas
+*.egg-info/
+build/
+dist/
+
+# Datos locales (si no quieres versionarlos)
+data/
+
+# Archivos de configuración sensibles
+.env
+
+# IDEs
+.vscode/
+.idea/
+
