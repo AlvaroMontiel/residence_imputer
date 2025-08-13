@@ -42,14 +42,14 @@
   "comuna_code": "02201",
   "address": "Avenida Siempre Viva 1975",
   "confidence": 0.92,
-  "sources": ["SIGGES", "Local_DB"],
+  "sources": ["SIGGES", "LOCAL_DB"],
   "audit_id": "b7c7f7a0-3f8c-4f5f-a4f7-4bf6b1c3c8d2"
 }
 ```
 
 **Notes**
 
-* `sources` is a non-empty list of enums like: `["SIGGES", "Local_DB"]`.
+* `sources` is a non-empty list of enums like: `["SIGGES", "LOCAL_DB"]`.
 * `audit_id` should be **UUIDv4** (easy to search and log).
 
 ---
@@ -98,7 +98,7 @@
 ### Accuracy / Precision
 
 * **Precision threshold:** ≥ **80%** of test cases match the validated ground truth at **comuna** level.
-    * Correct case: It's a case who match in the field 'comuna' with the gold dataset
+    * Correct case: A correct case is one that matches in the field 'comuna' with the gold dataset
 
 ### Latency / Performance
 
